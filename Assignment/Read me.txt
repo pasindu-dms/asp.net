@@ -1,0 +1,16 @@
+01. Create Database using this sql query.
+CREATE TABLE students(
+    id INT NOT NULL PRIMARY KEY IDENTITY,
+    name VARCHAR (100) NOT NULL,
+    registration_num VARCHAR (100) NOT NULL,
+    index_num  VARCHAR (100),
+    phone VARCHAR(20) NULL,
+    address VARCHAR(100) NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+02.improt the StudentManagment project.
+
+03.Update the SQL string in to the code.
+
+04.Run the project.
